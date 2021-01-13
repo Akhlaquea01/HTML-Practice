@@ -1,0 +1,65 @@
+<html>
+<head>
+	<title>Forms</title>
+</head>
+<body>
+
+	<!--Text input control-->
+	<form ><!--Single Line Text input control-->
+		First name: <input type="text" name="first_name" />
+		<br>
+		Last name: <input type="text" name="last_name" />
+	</form>
+<hr/>
+	<form ><!--Password input control-->
+		User ID : <input type="text" name="user_id" />
+		<br>
+		Password: <input type="password" name="password" />
+	</form>
+<hr/>
+	<form> <!--Multiline Text input control-->
+		Description: <br />
+			<textarea rows="5" cols="50" name="description">
+			Enter description here...
+			</textarea>
+	</form>
+<hr/>
+	<!--Checkbox control-->
+	<form>
+		<input type="checkbox" name="maths" value="on"> Maths
+		<input type="checkbox" name="physics" value="on"> Physics
+	</form>
+<hr/>
+	<form><!--Radiobox control-->
+		<input type="radio" name="subject" value="maths"> Maths
+		<input type="radio" name="subject" value="physics"> Physics
+	</form>
+<hr/>
+	<form><!--Selectbox control-->
+		<select name="dropdown">
+			<option value="Maths">Maths</option>
+			<option value="Physics" selected>Physics</option>
+		</select>
+	</form>
+<hr/>
+	<form><!--UploadBox-->
+		<input type="file" name="fileupload" accept="image/*" />
+	</form>
+<hr/>
+	<form><!--Button control-->
+		<input type="button" name="submit" value="Submit" />
+		<input type="button" name="reset" value="Reset" />
+		<input type="button" name="ok" value="OK" />
+		<input type="image" name="imagebutton" src="fb.png" />
+	</form>
+<hr/>
+	<form><!--Hidden Form control-->
+		<p>This is page 10</p>
+		<input type="hidden" name="pagename" value="10" />
+		<input type="submit" name="submit" value="Submit" />
+		<input type="reset" name="reset" value="Reset" />
+	</form>
+
+
+</body>
+</html>
